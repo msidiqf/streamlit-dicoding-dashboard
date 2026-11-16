@@ -54,8 +54,8 @@ def create_rfm_df(df):
     return rfm_df
 
 
-all_df = pd.read_csv('main_data.csv')
-financial_df_raw = pd.read_csv('order_financial_data.csv')
+all_df = pd.read_csv('dashboard/main_data.csv')
+financial_df_raw = pd.read_csv('dashboard/order_financial_data.csv')
 all_df['order_purchase_timestamp'] = pd.to_datetime(all_df['order_purchase_timestamp'])
 financial_df_raw['order_purchase_timestamp'] = pd.to_datetime(financial_df_raw['order_purchase_timestamp'])
 
