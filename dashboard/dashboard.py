@@ -89,7 +89,7 @@ start_year = pd.to_datetime(start_date).strftime("%Y")
 end_year = pd.to_datetime(end_date).strftime("%Y")
 year_label = start_year if start_year == end_year else f"{start_year} - {end_year}"
 
-st.header('Dicoding E-Commerce Dashboard:shopping_cart:')
+st.header('Dicoding E-Commerce Dashboard :shopping_cart:')
 
 #p1
 st.subheader(f"Kategori Produk Terpopuler di Kota Sao Paulo ({year_label})")
