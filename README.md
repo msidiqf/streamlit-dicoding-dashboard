@@ -1,4 +1,4 @@
-# Dicoding Dashboard E-Commerce
+# Dicoding E-Commerce Dashboard
 
 ## Setup Environment - Anaconda
 ```
